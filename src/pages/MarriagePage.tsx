@@ -1,20 +1,15 @@
 import './MarriagePage.css'
 function MarriagePage() {
     return (
-        <>
-        <div>
-            <h1 className='heading'>Marriage</h1>
-            <h2>Christian marriage</h2>
-            <p>8th June 2025</p>
-            <p>Jeevan Jothi Church, Chennai - 116</p>
+    <>
+    <div className='w-full h-full absolute top-0 left-0 bg-[#60E59C] overflow-hidden'>
+        <img src="/hero-image.png" alt="background-blur" className="w-full h-full object-cover blur-xl brightness-110 scale-110 opacity-70" />
+        <img src="/hero-image-bottom-blur.png" alt="background" className="w-full object-cover absolute top-0 left-0 border-0 inset-0" />
+    </div>
 
-            <h2>Hindu marriage</h2>
-            <p>15th May 2025</p>
-            <p>Dwaraks Tirumals, Andhra Pradesh - 534426</p>
-
-        </div>
-        </>
-    )
+     
+    </> 
+      );
 }
 
 export default MarriagePage
