@@ -1,7 +1,5 @@
 import './MarriagePage.css'
 
-import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
-
 function MarriagePage() {
     return (
     <>
@@ -38,15 +36,7 @@ function MarriagePage() {
             </div>
 
             <div className='bg-emerald-50'>
-                <Parallax pages={2}>
-                    <ParallaxLayer offset={0} speed={1}>
-                        <p className='font-sans font-bold text-3xl pt-10 text-shadow-amber-950'>Hindu Marriage</p>
-                    </ParallaxLayer>
-                    <ParallaxLayer offset={1} speed={0.2}>
-                        <img src='/mala.png' alt='mala' className='object-cover' />
-                    </ParallaxLayer>
-                </Parallax>
-                {/* <p className='font-sans font-bold text-3xl pt-10 text-shadow-amber-950'>Hindu Marriage</p> */}
+                <p className='font-sans font-bold text-3xl pt-10 text-shadow-amber-950'>Hindu Marriage</p>
                 <div className='h-[700px]'></div>
 
             </div>
