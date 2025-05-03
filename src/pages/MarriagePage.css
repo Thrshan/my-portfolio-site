@@ -1,3 +1,9 @@
-.heading {
-    color: brown;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&family=Style+Script&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --font-dancingScript: "Dancing Script", sans-serif; 
+    --font-satisfy: "Satisfy", sans-serif; 
+    --font-styleScript: "Style Script", sans-serif; 
+  }
