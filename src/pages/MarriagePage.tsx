@@ -1,9 +1,6 @@
 import './MarriagePage.css'
 
 function MarriagePage() {
-    const navigateToHinduWedding = () => {
-
-    }
 
     return (
     <>
