@@ -1,6 +1,10 @@
 import './MarriagePage.css'
 
 function MarriagePage() {
+    const navigateToHinduWedding = () => {
+
+    }
+
     return (
     <>
     <div className='w-full h-full absolute top-0 left-0 bg-[#6fcf9a] overflow-x-hidden'>
@@ -21,7 +25,7 @@ function MarriagePage() {
 
         <div className="absolute top-[110%] ">
             <div className='left-10/100 right-10/100 p-10'>
-                <h2 className="text-3xl font-dancingScript text-[#f8ffca] text-shadow-amber-950 text-shadow-2xs mb-8">Our Story</h2>
+                <h2 className="text-4xl font-dancingScript text-[#374151] text-shadow-amber-950 text-shadow-2xs mb-8">Our Story</h2>
                 <p className="text-lg font-satisfy text-[#22221F] leading-relaxed">
                 Every love story is beautiful, but ours is my favorite.
                 What began as a simple friendship slowly blossomed into a love story that means the world to us.
@@ -36,9 +40,91 @@ function MarriagePage() {
             </div>
 
             <div className='bg-emerald-50'>
-                <p className='font-sans font-bold text-3xl pt-10 text-shadow-amber-950'>Hindu Marriage</p>
-                <div className='h-[700px]'></div>
+                {/* <p className='font-sans font-bold text-3xl pt-10 text-shadow-amber-950'>Hindu Marriage</p> */}
+                {/* <div className='h-[700px]'></div> */}
+                <h2 className="text-4xl md:text-5xl font-dancingScript text-[#374151] mb-4 pt-5">Save the Date</h2>
 
+                <section className="bg-[#e9f5f2] py-4 px-6 text-center">
+                    <h3 className="text-3xl md:text-4xl font-dancingScript text-[#374151] mb-4">Hindu Marriage</h3>
+                    {/* <p className="text-xl font-satisfy text-[#374151] mb-8">We can't wait to celebrate with you!</p> */}
+
+                    <div className="flex flex-col md:flex-row justify-center gap-10 mb-12">
+                        <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-full md:w-1/3 border-t-8 border-[#6fcf9a]">
+                        <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Reception</h3>
+                        <p className="text-lg text-[#4b5563]">May 15, 2025</p>
+                        <p className="text-md text-[#6b7280]">7:00 PM onwards</p>
+                        <p className="text-sm mt-3 text-[#9ca3af]">
+                            <a
+                                href="https://maps.app.goo.gl/akpj9r147bbFhLBZA?g_st=aw"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: "none", color: "inherit" }}
+                                >
+                                Hotel Sri Vyshnavi A/C Function Hall<br/>Near Kunkullsmms Temple,<br/>Dwaraka Tirumala<br/>Andhra Pradesh 534 426
+                            </a>
+                        </p>
+                        </div>
+
+                        <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-full md:w-1/3 border-t-8 border-[#fbbf24]">
+                        <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Wedding</h3>
+                        <p className="text-lg text-[#4b5563]">May 16, 2025</p>
+                        <p className="text-md text-[#6b7280]">4:58 AM</p>
+                        <p className="text-sm mt-3 text-[#9ca3af]">
+                            <a
+                                href="https://maps.app.goo.gl/akpj9r147bbFhLBZA?g_st=aw"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: "none", color: "inherit" }}
+                                >
+                                Hotel Sri Vyshnavi A/C Function Hall<br/>Near Kunkullsmms Temple,<br/>Dwaraka Tirumala,<br/>Andhra Pradesh 534 426
+                            </a>
+                        </p>
+                        </div>
+                    </div>
+
+                    {/* <p className="italic text-[#6b7280] font-satisfy text-md">Mark your calendars and come celebrate with us!</p> */}
+                </section>
+
+                <section className="bg-[#e9f5f2] py-4 px-6 text-center">
+                    <h3 className="text-3xl md:text-4xl font-dancingScript text-[#374151] mb-4">Christian Marriage</h3>
+                    {/* <p className="text-xl font-satisfy text-[#374151] mb-8">We can't wait to celebrate with you!</p> */}
+
+                    <div className="flex flex-col md:flex-row justify-center gap-10 mb-12">
+                        <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-full md:w-1/3 border-t-8 border-[#6fcf9a]">
+                        <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Marriage</h3>
+                        <p className="text-lg text-[#4b5563]">June 8, 2025</p>
+                        <p className="text-md text-[#6b7280]">10:30 AM to 11:30 AM (with Mass)</p>
+                        <p className="text-sm mt-3 text-[#9ca3af]">
+                            <a
+                                href="https://maps.app.goo.gl/BdyMLEqK8LbvB1Ao8"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: "none", color: "inherit" }}
+                                >
+                                Krist Jyothi Church,<br/>3/156, Mount Poonamallee Road,<br/>Ramapuram, Chennai 600 089
+                            </a>
+                        </p>
+                        </div>
+
+                        <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-full md:w-1/3 border-t-8 border-[#fbbf24]">
+                        <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Reception</h3>
+                        <p className="text-lg text-[#4b5563]">June 8, 2025</p>
+                        <p className="text-md text-[#6b7280]">11:30 AM</p>
+                        <p className="text-sm mt-3 text-[#9ca3af]">
+                            <a
+                                href="https://maps.app.goo.gl/w4ffkkZ1hLBdwa4c8"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: "none", color: "inherit" }}
+                                >
+                                Jothi Mahal (A/C),<br/>3/156, Mount Poonamallee Road,<br/>Ramapuram, Chennai 600 089
+                            </a>
+                        </p>
+                        </div>
+                    </div>
+
+                    <p className="italic text-[#6b7280] font-satisfy text-md">Mark your calendars and come celebrate with us!</p>
+                </section>
             </div>
         </div>
     </div>
