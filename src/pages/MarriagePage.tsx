@@ -32,8 +32,8 @@ function MarriagePage() {
                 </p>
             </div>
 
-            <div className='pt-5 pb-5 bg-white mt-10'>
-                <img src="/image-story.webp" alt="story-image" className="w-full" />
+            <div className='pt-5 pb-5 bg-white mt-10 flex items-center justify-center'>
+                <img src="/image-story.webp" alt="story-image" className="w-full md:w-1/2 text-center" />
             </div>
 
             <div className='bg-emerald-50'>
