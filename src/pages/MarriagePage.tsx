@@ -8,15 +8,17 @@ function MarriagePage() {
         <img src="/hero-image.png" alt="background-blur" className="w-full h-full object-cover blur-xl brightness-110 scale-110 opacity-70" />
         <img src="/hero-image-bottom-blur.png" alt="background" className="w-full object-cover absolute top-0 left-0 border-0 inset-0" />
         
-        <div className="group absolute top-65/100 left-10/100">
-            <text className="block text-4xl font-medium text-left font-dancingScript text-[#f8ffca] text-shadow-amber-950 text-shadow-lg/30">
+        
+        <div className="group absolute top-75/100 left-10/100">
+            <text className="block text-4xl font-medium text-centre font-dancingScript text-[#f8ffca] text-shadow-amber-950 text-shadow-lg/30">
+                <p className='text-[#0e0772]'>Hey !! <br/>We're getting married...<br/> </p>
                 <p>Thrshan</p>
                 <p>&</p>
-                <p>Dhurga Madhuri</p>
+                <p>Durga Madhuri</p>
             </text>
 
-            <text className="block text-xl font-satisfy font-medium text-left mt-5 mr-5 text-[#22221F] text-shadow-amber-950 text-shadow-2xs">
-                <p>We can't wait to share our special day with you. Help us capture our wedding with Joy.</p>
+            <text className="block text-2xl font-satisfy font-medium text-left mt-5 mr-5 text-[#22221F] text-shadow-amber-950 text-shadow-2xs">
+                <p>We can't wait to share our special day with you. Help us capture our wedding with Joy 💖</p>
             </text>
         </div>
 
@@ -50,12 +52,12 @@ function MarriagePage() {
                         <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Reception</h3>
                         <p className="text-lg text-[#4b5563]">May 15, 2025</p>
                         <p className="text-md text-[#6b7280]">7:00 PM onwards</p>
-                        <p className="text-sm mt-3 text-[#9ca3af]">
+                        <p className="text-sm mt-3 text-[#6d90d6]">
                             <a
                                 href="https://maps.app.goo.gl/akpj9r147bbFhLBZA?g_st=aw"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{ textDecoration: "none", color: "inherit" }}
+                                style={{ textDecoration: "underline", color: "inherit" }}
                                 >
                                 Hotel Sri Vyshnavi A/C Function Hall<br/>Near Kunkullsmms Temple,<br/>Dwaraka Tirumala<br/>Andhra Pradesh 534 426
                             </a>
@@ -66,12 +68,12 @@ function MarriagePage() {
                         <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Wedding</h3>
                         <p className="text-lg text-[#4b5563]">May 16, 2025</p>
                         <p className="text-md text-[#6b7280]">4:58 AM</p>
-                        <p className="text-sm mt-3 text-[#9ca3af]">
+                        <p className="text-sm mt-3 text-[#6d90d6]">
                             <a
                                 href="https://maps.app.goo.gl/akpj9r147bbFhLBZA?g_st=aw"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{ textDecoration: "none", color: "inherit" }}
+                                style={{ textDecoration: "underline", color: "inherit" }}
                                 >
                                 Hotel Sri Vyshnavi A/C Function Hall<br/>Near Kunkullsmms Temple,<br/>Dwaraka Tirumala,<br/>Andhra Pradesh 534 426
                             </a>
@@ -91,12 +93,12 @@ function MarriagePage() {
                         <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Marriage</h3>
                         <p className="text-lg text-[#4b5563]">June 8, 2025</p>
                         <p className="text-md text-[#6b7280]">10:30 AM to 11:30 AM (with Mass)</p>
-                        <p className="text-sm mt-3 text-[#9ca3af]">
+                        <p className="text-sm mt-3 text-[#6d90d6]">
                             <a
                                 href="https://maps.app.goo.gl/BdyMLEqK8LbvB1Ao8"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{ textDecoration: "none", color: "inherit" }}
+                                style={{ textDecoration: "underline", color: "inherit" }}
                                 >
                                 Krist Jyothi Church,<br/>3/156, Mount Poonamallee Road,<br/>Ramapuram, Chennai 600 089
                             </a>
@@ -107,12 +109,12 @@ function MarriagePage() {
                         <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Reception</h3>
                         <p className="text-lg text-[#4b5563]">June 8, 2025</p>
                         <p className="text-md text-[#6b7280]">11:30 AM</p>
-                        <p className="text-sm mt-3 text-[#9ca3af]">
+                        <p className="text-sm mt-3 text-[#6d90d6]">
                             <a
                                 href="https://maps.app.goo.gl/w4ffkkZ1hLBdwa4c8"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{ textDecoration: "none", color: "inherit" }}
+                                style={{ textDecoration: "underline", color: "inherit" }}
                                 >
                                 Jothi Mahal (A/C),<br/>3/156, Mount Poonamallee Road,<br/>Ramapuram, Chennai 600 089
                             </a>
