@@ -25,16 +25,17 @@ function MarriagePage() {
                     />
 
                     <div className="absolute inset-x-0 bottom-0 w-full flex flex-col items-center pb-5">
+                        <text className="text-5xl font-medium text-center mb-10 font-dancingScript text-[#f8ffca] text-shadow-amber-950 text-shadow-lg/30">
+                            <p>Thrshan</p>
+                            <p>&</p>
+                            <p>Durga Madhuri</p>
+                        </text>
+
                         <text className="text-4xl font-medium text-center font-dancingScript text-[#f8ffca] text-shadow-blue-400 text-shadow-lg/30">
                             <p className='text-[#0f0c41]'>Hey !! <br />We're getting married...<br /> </p>
 
                         </text>
 
-                        <text className="text-4xl font-medium text-center font-dancingScript text-[#f8ffca] text-shadow-amber-950 text-shadow-lg/30">
-                            <p>Thrshan</p>
-                            <p>&</p>
-                            <p>Durga Madhuri</p>
-                        </text>
 
                         <text className="block text-xl font-satisfy font-medium text-center m-5 text-[#22221F] text-shadow-amber-950 text-shadow-2xs">
                             <p>We can't wait to share our special day with you. Help us capture our wedding with Joy 💖</p>
