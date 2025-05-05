@@ -6,17 +6,17 @@
   box-sizing: border-box;
 }
 
-html, body{
+/* html, body{
     height:100%;
     width: 100%;
-}
+} */
 
-body {
+/* body {
   padding:50px;
   margin:0;
   overflow:hidden;
   background-color:#FAFAFA;
-}
+} */
 
 @-webkit-keyframes swinging{
     0%{-webkit-transform: rotate(10deg);}
