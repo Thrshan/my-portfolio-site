@@ -72,7 +72,7 @@ function MarriagePage() {
                                 </div>
 
                                 <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-full md:w-1/3 border-t-8 border-[#fbbf24]">
-                                    <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Wedding</h3>
+                                    <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Marriage</h3>
                                     <p className="text-lg text-[#4b5563]">May 16, 2025</p>
                                     <p className="text-md text-[#6b7280]">4:58 AM</p>
                                     <p className="text-sm mt-3 text-[#6d90d6]">
