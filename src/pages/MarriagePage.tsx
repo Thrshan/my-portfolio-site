@@ -164,9 +164,10 @@ function MarriagePage() {
 
                     <div className=' p-10'>
                         <h2 className="text-4xl font-dancingScript text-[#374151] text-shadow-amber-950 text-shadow-2xs mb-8">Video</h2>
-                        <p className="text-lg font-satisfy text-[#22221F] leading-relaxed">
-                           
-                        </p>
+                        <button className="w-full max-w-xl aspect-video bg-gray-300 rounded-xl flex items-center justify-center hover:bg-gray-400 transition-all">
+                            <span className="text-xl text-white font-semibold">Coming Soon</span>
+                        </button>
+
                     </div>
                 </div>
             </div>
