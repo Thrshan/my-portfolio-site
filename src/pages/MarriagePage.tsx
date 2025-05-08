@@ -54,7 +54,7 @@ function MarriagePage() {
                             <h3 className="text-3xl md:text-4xl font-dancingScript text-[#374151] mb-4">Hindu Marriage</h3>
                             {/* <p className="text-xl font-satisfy text-[#374151] mb-8">We can't wait to celebrate with you!</p> */}
 
-                            <div className="flex flex-col md:flex-row justify-center gap-10 mb-12">
+                            <div className="flex flex-col md:flex-row justify-center gap-10 mb-10">
                                 <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-full md:w-1/3 border-t-8 border-[#6fcf9a]">
                                     <h3 className="text-2xl font-bold mb-2 text-[#1f2937]">Reception</h3>
                                     <p className="text-lg text-[#4b5563]">May 15, 2025</p>
@@ -87,6 +87,14 @@ function MarriagePage() {
                                     </p>
                                 </div>
                             </div>
+                            <div className="w-full flex justify-center mb-7">
+                                <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-[80%] md:w-1/3 border-t-8 border-[#fbbf24]">
+                                    <h4 className="text-xl font-bold mb-2 text-[#1f2937]">Contacts</h4>
+                                    <p>Madhuri : <a href="tel:7981240409">7981240409</a></p>
+                                    <p>Chandu (Bride's Bro) : <a href="tel:8985724090">8985724090</a></p>
+                                </div>
+                            </div>
+                            
 
                             {/* <p className="italic text-[#6b7280] font-satisfy text-md">Mark your calendars and come celebrate with us!</p> */}
                         </section>
@@ -128,6 +136,13 @@ function MarriagePage() {
                                     </p>
                                 </div>
                             </div>
+                            <div className="w-full flex justify-center mb-7">
+                                <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-[80%] md:w-1/3 border-t-8 border-[#fbbf24]">
+                                    <h4 className="text-xl font-bold mb-2 text-[#1f2937]">Contacts</h4>
+                                    <p>Thrshan : <a href="tel:7299800768">7299800768</a></p>
+                                    <p>Preyan (Grooms's Bro) : <a href="tel:9176363561">9176363561</a></p>
+                                </div>
+                            </div>
 
                             <p className="italic text-[#6b7280] font-satisfy text-xl">Mark your calendars and come celebrate with us!</p>
                         </section>
@@ -147,7 +162,13 @@ function MarriagePage() {
                         </p>
                     </div>
 
+                    <div className=' p-10'>
+                        <h2 className="text-4xl font-dancingScript text-[#374151] text-shadow-amber-950 text-shadow-2xs mb-8">Video</h2>
+                        <button className="w-full max-w-xl aspect-video bg-gray-300 rounded-xl flex items-center justify-center hover:bg-gray-400 transition-all">
+                            <span className="text-xl text-white font-semibold">Coming Soon</span>
+                        </button>
 
+                    </div>
                 </div>
             </div>
         </>
