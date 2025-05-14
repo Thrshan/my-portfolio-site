@@ -1,17 +1,32 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function LiveBanner() {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    // Replace these with your actual event timings (UTC or local)
+    const startDateTime = new Date('2025-05-15T00:00:00'); // Start time
+    const endDateTime = new Date('2025-05-17T00:00:00');   // End time
+    const now = new Date();
+
+    console.log('Current Time:', now);
+    console.log('Start Time:', startDateTime);
+    console.log('End Time:', endDateTime);
+
+    if (now >= startDateTime && now <= endDateTime) {
+      setIsVisible(true);
+    }
+  }, []);
 
   const handleBannerClick = () => {
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     setIsVisible(false);
   };
 
-const handleClose = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleClose = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.stopPropagation(); // prevent triggering the scroll
     setIsVisible(false);
-};
+  };
 
   if (!isVisible) return null;
 
