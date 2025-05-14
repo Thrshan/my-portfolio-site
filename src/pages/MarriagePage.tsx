@@ -1,5 +1,6 @@
 import './MarriagePage.css'
 import { useEffect } from 'react'
+import LiveBanner from '../components/LiveBanner'; // Adjust the path as needed
 
 function MarriagePage() {
     useEffect(() => {
@@ -13,7 +14,7 @@ function MarriagePage() {
 
     return (
         <>
-
+            <LiveBanner/>
             <div className='bg-[#6fcf9a]'>
                 <div className='relative h-screen'>
                     <img
