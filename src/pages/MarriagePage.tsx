@@ -8,6 +8,9 @@ function MarriagePage() {
         }
     }, [])
 
+    const thumbnailUrl = `https://img.youtube.com/vi/2a7PE0EKdok/hqdefault.jpg`;
+    const videoUrl = `https://www.youtube.com/watch?v=2a7PE0EKdok`;
+
     return (
         <>
 
@@ -140,7 +143,7 @@ function MarriagePage() {
                                 <div className="bg-white rounded-2xl shadow-xl px-6 py-8 w-[80%] md:w-1/3 border-t-8 border-[#fbbf24]">
                                     <h4 className="text-xl font-bold mb-2 text-[#1f2937]">Contacts</h4>
                                     <p>Thrshan : <a href="tel:7299800768">7299800768</a></p>
-                                    <p>Preyan (Grooms's Bro) : <a href="tel:9176363561">9176363561</a></p>
+                                    <p>Preyan (Grooms's Bro) : <a href="tel:7200852845">7200852845</a></p>
                                 </div>
                             </div>
 
@@ -162,13 +165,31 @@ function MarriagePage() {
                         </p>
                     </div>
 
-                    <div className=' p-10'>
-                        <h2 className="text-4xl font-dancingScript text-[#374151] text-shadow-amber-950 text-shadow-2xs mb-8">Video</h2>
-                        <button className="w-full max-w-xl aspect-video bg-gray-300 rounded-xl flex items-center justify-center hover:bg-gray-400 transition-all">
-                            <span className="text-xl text-white font-semibold">Coming Soon</span>
-                        </button>
-
+                    <div className=' pt-10'>
+                        <h2 className="text-4xl font-dancingScript text-[#374151] text-shadow-amber-950 text-shadow-2xs mb-8">Live Stream</h2>
                     </div>
+
+                    <a href={videoUrl} target="_blank" rel="noopener noreferrer" className="block w-full max-w-md mx-auto">
+      <div className="relative">
+        <img
+          src={thumbnailUrl}
+          alt="YouTube Video Thumbnail"
+          className="w-full rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="bg-black bg-opacity-60 rounded-full p-3">
+            <svg
+              className="w-10 h-10 text-white"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M10 16.5l6-4.5-6-4.5v9z" />
+              <path d="M24 4.5v15c0 1.38-1.12 2.5-2.5 2.5h-19C1.12 22 0 20.88 0 19.5v-15C0 3.12 1.12 2 2.5 2h19C22.88 2 24 3.12 24 4.5z" fill="none" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </a>
                 </div>
             </div>
         </>
