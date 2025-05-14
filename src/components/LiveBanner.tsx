@@ -19,7 +19,11 @@ export default function LiveBanner() {
   }, []);
 
   const handleBannerClick = () => {
-    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    // window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    const targetElement = document.getElementById('live-stream-section');
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
     setIsVisible(false);
   };
 

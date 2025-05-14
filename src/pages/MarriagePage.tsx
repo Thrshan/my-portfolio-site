@@ -1,6 +1,7 @@
 import './MarriagePage.css'
 import { useEffect } from 'react'
 import LiveBanner from '../components/LiveBanner'; // Adjust the path as needed
+import FeedbackForm from '../components/FeedbackForm';
 
 function MarriagePage() {
     useEffect(() => {
@@ -166,31 +167,34 @@ function MarriagePage() {
                         </p>
                     </div>
 
-                    <div className=' pt-10'>
+                    <div className='pt-10' id='live-stream-section' >
                         <h2 className="text-4xl font-dancingScript text-[#374151] text-shadow-amber-950 text-shadow-2xs mb-8">Live Stream</h2>
                     </div>
 
                     <a href={videoUrl} target="_blank" rel="noopener noreferrer" className="block w-full max-w-md mx-auto">
-      <div className="relative">
-        <img
-          src={thumbnailUrl}
-          alt="YouTube Video Thumbnail"
-          className="w-full rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
-        />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="bg-black bg-opacity-60 rounded-full p-3">
-            <svg
-              className="w-10 h-10 text-white"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M10 16.5l6-4.5-6-4.5v9z" />
-              <path d="M24 4.5v15c0 1.38-1.12 2.5-2.5 2.5h-19C1.12 22 0 20.88 0 19.5v-15C0 3.12 1.12 2 2.5 2h19C22.88 2 24 3.12 24 4.5z" fill="none" />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </a>
+                        <div className="relative">
+                            <img
+                            src={thumbnailUrl}
+                            alt="YouTube Video Thumbnail"
+                            className="w-full rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+                            />
+                            <div className="absolute inset-0 flex items-center justify-center">
+                            <div className="bg-black bg-opacity-60 rounded-full p-3">
+                                <svg
+                                className="w-10 h-10 text-white"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                                >
+                                <path d="M10 16.5l6-4.5-6-4.5v9z" />
+                                <path d="M24 4.5v15c0 1.38-1.12 2.5-2.5 2.5h-19C1.12 22 0 20.88 0 19.5v-15C0 3.12 1.12 2 2.5 2h19C22.88 2 24 3.12 24 4.5z" fill="none" />
+                                </svg>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div className='mx-5 pb-5'>
+                        <FeedbackForm/>
+                    </div>
                 </div>
             </div>
         </>
