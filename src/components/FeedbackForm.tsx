@@ -13,7 +13,6 @@ interface FormData {
     content: string;
 }
 
-type FormStatus = 'idle' | 'sending' | 'success' | 'error';
 
 const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
