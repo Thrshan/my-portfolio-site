@@ -37,7 +37,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> 
     <div className="max-w-md mx-auto bg-white bg-opacity-80 backdrop-blur-lg border border-gray-200 rounded-3xl p-8 shadow-lg mt-12">
       <h2 className="text-2xl font-semibold text-gray-800 mb-1">Say Something</h2>
       <p className="text-sm text-gray-600 mb-6">
-        It can be a thought, feedback or anything on mind
+      Hey lovely amigos, drop your best ideas, date plans, or song suggestions — anything you'd recommend for making memories together!
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-5">
